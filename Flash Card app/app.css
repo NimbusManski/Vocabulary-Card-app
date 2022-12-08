@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  color:white;
+  margin:auto;
+  background:rgba(17, 26, 75, 0.842);
+  height: 490px;
+}
+
+body {
+  background-color: rgb(7, 10, 49);
+  display: flex;
+  margin:auto;
+}
+
+button:hover {
+  cursor: pointer;
+  
+}
+
+ul {
+  list-style:decimal;
+}
+
+li {
+  list-style: circle;
+
+}
+
+.card {
+  background-color: rgba(121, 121, 121, 0.856);
+  width: 400px
+}
+
+.card label {
+  font-size: 1.3rem;
+}
+
+input {
+  color: inherit;
+  background: inherit;
+  border: none;
+  border-bottom: 2px solid #494949;
+  margin-top: 15px;
+  width:100%;
+}
+
+input:active,
+input:hover,
+input:focus {
+  border-color: #888;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Vocabulary Card */
+ #vocabulary-card {
+  border: 1px solid rgba(121, 121, 121, 0.856);
+  box-shadow: 10px 8px 8px rgba(3,3,3, 0.3);
+  margin: 30px 30px 20px 30px;
+  padding: 10px;
+  max-width: 50%;
+  height: 330px;
+  line-height: 2rem;
+  border-radius: 20px;
+}
+
+#word-input {
+  font-size: 1rem;
+}
+
+#definition-input {
+  font-size: 1rem;
+}
+
+.vocab-word {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.vocab-definition {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+#add-word-btn {
+  margin-bottom: auto;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  border: rgba(33, 50, 145, 0.842);
+  color: #f4f4f4;
+  background: rgba(33, 50, 145, 0.842);
+  box-shadow: 0 2px 8px rgba(17, 26, 75, 0.842);
+}
+
+#definition-input {
+  height: 100px;
+  border-style: double ;
+}
+
+/* Filter Style */
+#filter-card {
+   
+   
+}
+ 
+ #filter-card{
+  border: 1px solid rgba(121, 121, 121, 0.856);
+  box-shadow: 10px 8px 8px rgba(3,3,3, 0.3);
+  margin-top: 30px;
+  padding: 10px;
+  max-width: 100%;
+  height: 90px;
+  line-height: 2rem;
+  border-radius: 20px;
+}
+
+#filter-card .search {
+  display: flex;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+#search-word-go {
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+  border: rgba(33, 50, 145, 0.842);
+  color: #f4f4f4;
+  background: rgba(33, 50, 145, 0.842);
+  box-shadow: 0 2px 8px rgba(18, 26, 74, 0.842);
+}
+
+#filter-word {
+  margin: 0;
+  font: inherit;
+}
+
+/* Vocabulary Storage */
+ #vocabulary-storage{
+  border: 1px solid rgba(121, 121, 121, 0.856);
+  box-shadow: 10px 8px 8px rgba(3,3,3, 0.3);
+  margin: 30px 30px 20px 30px;
+  padding: 10px;
+  width: 380px;
+  max-height: 440px;
+  line-height: 2rem;
+  border-radius: 20px;
+  overflow: auto;
+}  
+
+.vocabulary-list {
+  border: 1px solid rgba(121, 121, 121, 0.856);
+  box-shadow: 10px 8px 8px rgba(3,3,3, 0.3);
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  max-width: 50%;
+  height: 100%;
+  line-height: 2rem;
+  border-radius: 20px;
+}
+
+#list__item {
+  border-bottom: 1px solid #494949;
+  display: flex;
+}
+
+.hide {
+  display: none;
+}

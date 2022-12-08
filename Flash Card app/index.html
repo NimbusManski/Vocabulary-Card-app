@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+  <title>Flash Card App</title>
+</head>
+
+<body>
+  <main>
+    <section id="vocabulary-card" class="card">
+      <div>
+        <div class="vocab-word">
+          <label for="word-input">Word:</label>
+          <input type="text" id="word-input" />
+        </div>
+        <div class="vocab-definition">
+          <label for="definition-input">Definition:</label>
+          <input type="text" id="definition-input">
+        </div>
+      </div>
+      <button id="add-word-btn">Add Vocabulary Word</button>
+
+      <section id="filter-card" class="card">
+        <div class="search">
+          <label for="filter">Search:&nbsp</label>
+          <input type="search" id="filter-word" />
+        </div>
+        <button id="search-word-go">Go</button>
+      </section>
+
+    </section>
+    <div id="vocabulary-storage" class="card">
+      <div class="vocab-list-container">
+        <label for="vocabulary-list">Vocabulary List:</label>
+        <ul id="vocabulary-list">
+          <!-- <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li>
+          <li>Word
+            <li>Definition</li>
+          </li> -->
+          
+        </ul>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
